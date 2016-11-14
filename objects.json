@@ -549,7 +549,7 @@
             0,
             1
           ],
-          "enumNames": [
+          "x-enumNames": [
             "per clicks",
             "per impressions"
           ]
@@ -598,7 +598,7 @@
             1,
             2
           ],
-          "enumNames": [
+          "x-enumNames": [
             "stopped",
             "started",
             "deleted"
@@ -617,7 +617,7 @@
             2,
             3
           ],
-          "enumNames": [
+          "x-enumNames": [
             "not moderated",
             "pending moderation",
             "approved",
@@ -675,7 +675,7 @@
             0,
             1
           ],
-          "enumNames": [
+          "x-enumNames": [
             "per clicks",
             "per impressions"
           ]
@@ -757,7 +757,7 @@
             1,
             2
           ],
-          "enumNames": [
+          "x-enumNames": [
             "stopped",
             "started",
             "deleted"
@@ -856,7 +856,7 @@
             1,
             2
           ],
-          "enumNames": [
+          "x-enumNames": [
             "any",
             "male",
             "female"
@@ -1258,7 +1258,7 @@
             "f",
             "m"
           ],
-          "enumNames": [
+          "x-enumNames": [
             "female",
             "male"
           ]
@@ -1569,7 +1569,7 @@
             1,
             2
           ],
-          "enumNames": [
+          "x-enumNames": [
             "not supported",
             "levels",
             "points"
@@ -1774,7 +1774,7 @@
         0,
         1
       ],
-      "enumNames": [
+      "x-enumNames": [
         "no",
         "yes"
       ]
@@ -1984,7 +1984,7 @@
       "enum": [
         "open_url"
       ],
-      "enumNames": [
+      "x-enumNames": [
         "open_url"
       ]
     },
@@ -2080,7 +2080,7 @@
       "enum": [
         1
       ],
-      "enumNames": [
+      "x-enumNames": [
         "ok"
       ]
     },
@@ -2138,7 +2138,7 @@
       "enum": [
         1
       ],
-      "enumNames": [
+      "x-enumNames": [
         "Property exists"
       ]
     },
@@ -2214,7 +2214,7 @@
         -1,
         -2
       ],
-      "enumNames": [
+      "x-enumNames": [
         "desc_updated",
         "desc_created",
         "asc_updated",
@@ -2710,7 +2710,7 @@
             2,
             3
           ],
-          "enumNames": [
+          "x-enumNames": [
             "not a friend",
             "outcoming request",
             "incoming request",
@@ -2821,7 +2821,7 @@
             1,
             2
           ],
-          "enumNames": [
+          "x-enumNames": [
             "name and message for all",
             "name for all",
             "name and message for recipient only"
@@ -2994,7 +2994,7 @@
             1,
             2
           ],
-          "enumNames": [
+          "x-enumNames": [
             "open",
             "closed",
             "private"
@@ -3023,7 +3023,7 @@
             2,
             3
           ],
-          "enumNames": [
+          "x-enumNames": [
             "moderator",
             "editor",
             "administrator"
@@ -3068,7 +3068,7 @@
                 4,
                 5
               ],
-              "enumNames": [
+              "x-enumNames": [
                 "not a member",
                 "member",
                 "not sure",
@@ -3169,7 +3169,7 @@
                 4,
                 5
               ],
-              "enumNames": [
+              "x-enumNames": [
                 "absent",
                 "photos",
                 "topics",
@@ -3205,7 +3205,7 @@
                 2,
                 3
               ],
-              "enumNames": [
+              "x-enumNames": [
                 "no",
                 "over 16",
                 "over 18"
@@ -3256,7 +3256,7 @@
             2,
             3
           ],
-          "enumNames": [
+          "x-enumNames": [
             "moderator",
             "editor",
             "administrator"
@@ -3899,7 +3899,7 @@
                 3,
                 4
               ],
-              "enumNames": [
+              "x-enumNames": [
                 "other",
                 "spam",
                 "verbal abuse",
@@ -4223,7 +4223,7 @@
             1,
             2
           ],
-          "enumNames": [
+          "x-enumNames": [
             "available",
             "removed",
             "unavailable"
@@ -5357,7 +5357,7 @@
         1,
         2
       ],
-      "enumNames": [
+      "x-enumNames": [
         "community managers only",
         "community members only",
         "everyone"
@@ -7031,7 +7031,7 @@
             "f",
             "m"
           ],
-          "enumNames": [
+          "x-enumNames": [
             "female",
             "male"
           ]
@@ -7335,7 +7335,7 @@
     "users_user_full": {
       "allOf": [
         {
-          "$ref": "#/definitions/users_user"
+          "$ref": "#/definitions/users_user_min"
         },
         {
           "properties": {
@@ -7903,7 +7903,7 @@
           "description": "Type of occupation"
         },
         "id": {
-          "type": "integer",
+          "type": "string",
           "description": "ID of school, university, company group",
           "minimum": 0
         },
