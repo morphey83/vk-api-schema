@@ -1,3 +1,4 @@
+
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "title": "objects",
@@ -1970,11 +1971,11 @@
           "description": "Place type"
         },
         "country": {
-          "type": "integer",
+          "type": "string",
           "description": "Country ID"
         },
         "city": {
-          "type": "integer",
+          "type": "string",
           "description": "City ID"
         },
         "address": {
